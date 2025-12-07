@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "create-bananass-typescript-esm",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "add": "echo `add` command is still working in progress!",
+    "bug": "bananass bug",
+    "build": "bananass build",
+    "discussion": "bananass discussion",
+    "home": "bananass home",
+    "info": "bananass info",
+    "open": "bananass open",
+    "repo": "bananass repo",
+    "run": "bananass run",
+    "eslint": "eslint",
+    "eslint:fix": "eslint --fix",
+    "prettier": "prettier . --check --ignore-unknown",
+    "prettier:fix": "prettier . --write --ignore-unknown",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "bananass": "^0.5.2",
+    "eslint": "^9.39.1",
+    "eslint-config-bananass": "^0.5.2",
+    "jiti": "^2.5.1",
+    "prettier": "^3.6.2",
+    "prettier-config-bananass": "^0.5.2",
+    "typescript": "^5.9.2"
+  }
+}
